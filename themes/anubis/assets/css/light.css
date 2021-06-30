@@ -1,0 +1,29 @@
+:root {
+   /* light.css */ 
+    --font-color: #333;
+    --bg-color: #fff;
+
+    --link-color:#1d60a3;
+    --link-state-color:#ce0e67;
+    --link-state-border-color: rgba(163, 29, 29, .5);
+
+    --thead-bg-color: rgba(0,0,0,0.1);
+    --table-border-color: rgb(231, 231, 231);
+
+    --nav-bg-color: #fff;
+    --nav-link-color: #696969;
+
+    --pre-color: #333;
+    --pre-bg-color: #f1f1f1;
+
+    --bq-color: #eee;
+    --hr-color: #eee;
+
+    --pagination-bg-color: #fafafa;
+    --pagination-link-color: #696969;
+
+    --post-info-color: grey;
+
+    --switcher-color: #333;
+    --switcher-bg-color: #333; 
+}

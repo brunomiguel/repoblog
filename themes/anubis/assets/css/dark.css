@@ -1,0 +1,27 @@
+/* dark.css */ 
+--font-color: #eee;
+--bg-color: #04193a;
+
+--link-color:#e6ea15;
+--link-state-color:#ff1180;
+--link-state-border-color: rgba(238, 54, 54, 0.5);
+
+--thead-bg-color: rgba(255,255,255,0.25);
+--table-border-color: #1e848d;
+
+--nav-bg-color: #04193a;
+--nav-link-color: #b6b6b6;
+
+--pre-color: #333;
+--pre-bg-color: #f1f1f1;
+
+--bq-color: #05204c;
+--hr-color: #05204c;
+
+--pagination-bg-color: #373737;
+--pagination-link-color: #b6b6b6;
+
+--post-info-color: grey;
+
+--switcher-color: #fff;
+--switcher-bg-color: #fff;

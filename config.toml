@@ -1,0 +1,74 @@
+baseURL = "http://localhost:1313"
+languageCode = "en-us"
+title = "userrepository blog"
+theme = "anubis"
+paginate = 2
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+name = "Bruno Miguel"
+
+[params]
+author = "Bruno Miguel"
+description = "Updates and highlights about userrepository, a mostly AUR-based binary repository for Arch and Arch-based distributions"
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "light"
+readMore = false
+disableSummary = false
+
+# enable emoji
+enableEmoji = true
+
+# utteranc.es support
+utterancesRepo = ""  # mandatory
+utterancesTheme = "" # optional
+utterancesIssue = "" # optional
+utterancesLabel = "" # optional
+
+#[[params.social]]
+#id = "twitter"
+#url = "https://twitter.com/brunomiguel"
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "GitHub"
+url = "https://github.com/brunomiguel/userrepository"
+weight = 2
+
+[[menu.main]]
+name = "Repository"
+identifier = "archive"
+url = "https://userrepository.eu"
+weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[privacy]
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false

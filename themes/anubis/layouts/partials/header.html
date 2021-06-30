@@ -1,0 +1,27 @@
+<div class="header-top">
+    <h1 class="site-title">
+        {{ if ( .IsHome ) }}
+            <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
+        {{ else }}
+            <a href="{{ .Site.BaseURL | relLangURL }}">🏠</a>
+        {{ end }}
+    </h1>
+    <!-- {{ partial "social.html" . }} -->
+    {{ partial "themeSwitcher.html" . }}
+</div>
+{{ if .Site.Menus.main }}
+    <nav>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+{{ else }}
+    <nav></nav>
+{{ end }}
+
+{{ partial "header-extra.html" . }}
+
+{{ if or .Params.math .Site.Params.math }}
+{{ partial "math.html" . }}
+{{ end }}
