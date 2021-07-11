@@ -3,12 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.userrepository.eu/</loc>
-    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.userrepository.eu/about/</loc>
-    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.userrepository.eu/categories/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.userrepository.eu/tags/display-manager/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.userrepository.eu/tags/emptty-git/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.userrepository.eu/tags/featured/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.userrepository.eu/categories/featured-package/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.userrepository.eu/post/featured-package-emptty/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.userrepository.eu/post/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.userrepository.eu/tags/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.userrepository.eu/about/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.userrepository.eu/post/hello-world/</loc>
@@ -20,12 +41,6 @@
     <loc>https://blog.userrepository.eu/categories/news/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.userrepository.eu/post/</loc>
-    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.userrepository.eu/tags/</loc>
-    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.userrepository.eu/tags/upcoming/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -34,7 +49,5 @@
   </url><url>
     <loc>https://blog.userrepository.eu/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.userrepository.eu/tags/index/</loc>
   </url>
 </urlset>

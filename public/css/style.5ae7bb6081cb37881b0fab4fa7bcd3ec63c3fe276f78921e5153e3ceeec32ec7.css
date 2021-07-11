@@ -36,7 +36,7 @@
 [data-theme="dark"] {
     /* dark.css */ 
 --font-color: #eee;
---bg-color: #04193a;
+--bg-color: #151f2f;
 
 --link-color:#e6ea15;
 --link-state-color:#ff1180;
@@ -45,14 +45,14 @@
 --thead-bg-color: rgba(255,255,255,0.25);
 --table-border-color: #1e848d;
 
---nav-bg-color: #04193a;
+--nav-bg-color: #151f2f;
 --nav-link-color: #b6b6b6;
 
 --pre-color: #333;
 --pre-bg-color: #f1f1f1;
 
---bq-color: #05204c;
---hr-color: #05204c;
+--bq-color: #202f47;
+--hr-color: #202f47;
 
 --pagination-bg-color: #373737;
 --pagination-link-color: #b6b6b6;
@@ -227,7 +227,7 @@ th, td {
 .highlight pre {
     background-color: #141415 !important;
     border-radius: 6px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.28);
+    /*box-shadow: 0px 0px 10px rgba(0,0,0,0.28);*/
 }
 
 pre {
@@ -378,7 +378,7 @@ main h1 {
     font-weight: normal;
     line-height: 1.1em;
     margin-bottom: 0.5em;
-    font-weight: 600;
+    font-weight: 200;
 }
 
 .post-short-list:first-of-type {
