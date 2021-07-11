@@ -1,47 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on userrepository blog</title>
-    <link>https://blog.userrepository.eu/post/</link>
-    <description>userrepository blog (Posts)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate>
-    
-    <atom:link href="https://blog.userrepository.eu/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://blog.userrepository.eu/post/hello-world/</link>
-      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.userrepository.eu/post/hello-world/</guid>
-      <description>&lt;p&gt;I am delighted to &lt;strong&gt;finally&lt;/strong&gt; announce the availability of the &lt;strong&gt;userrepository blog&lt;/strong&gt;!&lt;/p&gt;
-&lt;p&gt;Launching a blog for the repository was something I was considering for over six months. However, due to personal circumstances and, well, life, the idea got put in a drawer. That was only until the 29th of June 2021, when I started dabbling with static site generators.&lt;/p&gt;
-&lt;h2 id=&#34;the-toolkit&#34;&gt;The toolkit&lt;/h2&gt;
-&lt;p&gt;After a bit of fussing, I chose &lt;strong&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; as the generator.&lt;/strong&gt; Hugo was my choice as the generator because I was already familiar with it, and it feels accessible for a non-dev like me.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/mitrichius/hugo-theme-anubis&#34;&gt;Anubis&lt;/a&gt; was my theme choice to build upon my own.&lt;/strong&gt; The original theme is under the &lt;a href=&#34;https://github.com/Mitrichius/hugo-theme-anubis/blob/master/LICENSE&#34;&gt;MIT license&lt;/a&gt; and so is my fork of Anubis.&lt;/p&gt;
-&lt;p&gt;The source code for this blog is available at &lt;a href=&#34;https://github.com/brunomiguel/userrepository-blog&#34;&gt;Github&lt;/a&gt;. You are welcome to fork it, make PRs and report issues.&lt;/p&gt;
-&lt;h2 id=&#34;what-the-blog-will-cover&#34;&gt;What the blog will cover&lt;/h2&gt;
-&lt;p&gt;I will &lt;strong&gt;write about the occasional update about the repo&lt;/strong&gt;. These blog posts can include, among other subjects, new packages, changes to the build system, scheduled reboots, etc.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Featured packages&lt;/strong&gt; will be another type of blog post published. I will highlight an available package on the repo that I feel will bring value to its users.&lt;/p&gt;
-&lt;p&gt;Comments about changes to / news regarding &lt;a href=&#34;https://archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt;, quick tips and screenshots for the VM running the repository will also be found on the occasion.&lt;/p&gt;
-&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;
-&lt;p&gt;Speaking of VM screenshots, here are two:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../../hello-world/vm1.jpg&#34;&gt;&lt;img src=&#34;../../hello-world/vm1.jpg&#34; alt=&#34;first screenshot&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../../hello-world/vm2.jpg&#34;&gt;&lt;img src=&#34;../../hello-world/vm2.jpg&#34; alt=&#34;second screenshot&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;enable-the-repository&#34;&gt;Enable the repository&lt;/h2&gt;
-&lt;p&gt;Create the file &lt;mark&gt;&lt;code&gt;/etc/pacman.d/userrepository&lt;/code&gt;&lt;/mark&gt; and add:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Server&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;https://userrepository.eu&lt;/span&gt;
-&lt;span style=&#34;color:#a6e22e&#34;&gt;SigLevel&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;Optional TrustAll&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Now, edit &lt;mark&gt;&lt;code&gt;/etc/pacman.conf&lt;/code&gt;&lt;/mark&gt; and put in it the following content:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[userrepository]&lt;/span&gt;
-&lt;span style=&#34;color:#a6e22e&#34;&gt;Include&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;/etc/pacman.d/userrepository&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The last step is running pacman:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo pacman -Syu&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on userrepository blog</title><link>https://blog.userrepository.eu/post/</link><description>userrepository blog (Posts)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.userrepository.eu/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://blog.userrepository.eu/post/hello-world/</link><pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.userrepository.eu/post/hello-world/</guid><description>&lt;p>I am delighted to &lt;strong>finally&lt;/strong> announce the availability of the &lt;strong>userrepository blog&lt;/strong>!&lt;/p>
+&lt;p>Launching a blog for the repository was something I was considering for over six months. However, due to personal circumstances and, well, life, the idea got put in a drawer. That was only until the 29th of June 2021, when I started dabbling with static site generators.&lt;/p>
+&lt;h2 id="the-toolkit">The toolkit&lt;/h2>
+&lt;p>After a bit of fussing, I chose &lt;strong>&lt;a href="https://gohugo.io/">Hugo&lt;/a> as the generator.&lt;/strong> Hugo was my choice as the generator because I was already familiar with it, and it feels accessible for a non-dev like me.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://github.com/mitrichius/hugo-theme-anubis">Anubis&lt;/a> was my theme choice to build upon my own.&lt;/strong> The original theme is under the &lt;a href="https://github.com/Mitrichius/hugo-theme-anubis/blob/master/LICENSE">MIT license&lt;/a> and so is my fork of Anubis.&lt;/p>
+&lt;p>The source code for this blog is available at &lt;a href="https://github.com/brunomiguel/userrepository-blog">Github&lt;/a>. You are welcome to fork it, make PRs and report issues.&lt;/p>
+&lt;h2 id="what-the-blog-will-cover">What the blog will cover&lt;/h2>
+&lt;p>I will &lt;strong>write about the occasional update about the repo&lt;/strong>. These blog posts can include, among other subjects, new packages, changes to the build system, scheduled reboots, etc.&lt;/p>
+&lt;p>&lt;strong>Featured packages&lt;/strong> will be another type of blog post published. I will highlight an available package on the repo that I feel will bring value to its users.&lt;/p>
+&lt;p>Comments about changes to / news regarding &lt;a href="https://archlinux.org/">Arch Linux&lt;/a>, quick tips and screenshots for the VM running the repository will also be found on the occasion.&lt;/p>
+&lt;h2 id="screenshots">Screenshots&lt;/h2>
+&lt;p>Speaking of VM screenshots, here are two:&lt;/p>
+&lt;p>&lt;a href="../../hello-world/vm1.jpg">&lt;img src="../../hello-world/vm1.jpg" alt="first screenshot">&lt;/a>&lt;/p>
+&lt;p>&lt;a href="../../hello-world/vm2.jpg">&lt;img src="../../hello-world/vm2.jpg" alt="second screenshot">&lt;/a>&lt;/p>
+&lt;h2 id="enable-the-repository">Enable the repository&lt;/h2>
+&lt;p>Create the file &lt;mark>&lt;code>/etc/pacman.d/userrepository&lt;/code>&lt;/mark> and add:&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-ini" data-lang="ini">&lt;span style="color:#a6e22e">Server&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">https://userrepository.eu&lt;/span>
+&lt;span style="color:#a6e22e">SigLevel&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">Optional TrustAll&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>Now, edit &lt;mark>&lt;code>/etc/pacman.conf&lt;/code>&lt;/mark> and put in it the following content:&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-ini" data-lang="ini">&lt;span style="color:#66d9ef">[userrepository]&lt;/span>
+&lt;span style="color:#a6e22e">Include&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">/etc/pacman.d/userrepository&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>The last step is running pacman:&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">sudo pacman -Syu&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
