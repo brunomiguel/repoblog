@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>featured package on userrepository blog</title>
+    <link>https://blog.userrepository.eu/categories/featured-package/</link>
+    <description>userrepository blog (featured package)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Jul 2021 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://blog.userrepository.eu/categories/featured-package/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Featured package: emptty-git</title>
+      <link>https://blog.userrepository.eu/post/featured-package-emptty/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.userrepository.eu/post/featured-package-emptty/</guid>
+      <description>&lt;p&gt;Hello, reader. Welcome to the first blog post featuring a package available for installation at the &lt;a href=&#34;https://userrepository.eu&#34;&gt;repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As stated in the &lt;a href=&#34;https://userrepository.eu/post/hello-world&#34;&gt;previous post&lt;/a&gt;, I will occasionally highlight a package I feel it brings value to the users. My first choice is &lt;a href=&#34;https://github.com/tvrzna/emptty&#34;&gt;&lt;code&gt;emptty-git&lt;/code&gt;&lt;/a&gt;, a really fast and simple Display Manager that runs on a TTY.&lt;/p&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;This CLI Display Manager is blazing fast and offers a few configuration options. One of these options and my personal favorite is setting the MOTD, like the one you can see in the next section.&lt;/p&gt;
+&lt;p&gt;You can also choose the TTY where it will run, set auto login, create &lt;a href=&#34;https://github.com/tvrzna/emptty/blob/master/SAMPLES.md#custom-sessions&#34;&gt;custom sessions&lt;/a&gt; just for emptty and a couple for customization options you can check over at &lt;a href=&#34;https://github.com/tvrzna/emptty&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;../../featured-posts/emptty.jpg&#34; alt=&#34;second screenshot&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-to-install&#34;&gt;How to install&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo pacman -Syu emptty-git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
