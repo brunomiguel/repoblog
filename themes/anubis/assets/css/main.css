@@ -181,7 +181,7 @@ th, td {
 .highlight pre {
     background-color: #141415 !important;
     border-radius: 6px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.28);
+    /*box-shadow: 0px 0px 10px rgba(0,0,0,0.28);*/
 }
 
 pre {
