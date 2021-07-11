@@ -11,6 +11,7 @@ googleAnalytics = ""
 name = "Bruno Miguel"
 
 [params]
+title = "userrepository blog"
 author = "Bruno Miguel"
 description = "Updates and highlights about userrepository, a mostly AUR-based binary repository for Arch and Arch-based distributions"
 dateFormat = "2006-01-02"
