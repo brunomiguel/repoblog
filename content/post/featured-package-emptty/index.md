@@ -25,7 +25,7 @@ As stated in the [previous post](https://userrepository.eu/post/hello-world), I 
 
 This CLI Display Manager is blazing fast and offers a few configuration options. One of these options and my personal favorite is setting the MOTD, like the one you can see in the next section.
 
-You can also choose the TTY where it will run, set auto login, create [custom sessions](https://github.com/tvrzna/emptty/blob/master/SAMPLES.md#custom-sessions) just for emptty and a couple for customization options you can check over at [Github](https://github.com/tvrzna/emptty).
+You can also choose the TTY where it will run, set auto login, create [custom sessions](https://github.com/tvrzna/emptty/blob/master/SAMPLES.md#custom-sessions) just for emptty and a couple customization options you can check over at [Github](https://github.com/tvrzna/emptty).
 
 ## Screenshot
 
