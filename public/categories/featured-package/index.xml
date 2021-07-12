@@ -21,7 +21,7 @@
 &lt;p&gt;As stated in the &lt;a href=&#34;https://userrepository.eu/post/hello-world&#34;&gt;previous post&lt;/a&gt;, I will occasionally highlight a package I feel it brings value to the users. My first choice is &lt;a href=&#34;https://github.com/tvrzna/emptty&#34;&gt;&lt;code&gt;emptty-git&lt;/code&gt;&lt;/a&gt;, a really fast and simple Display Manager that runs on a TTY.&lt;/p&gt;
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 &lt;p&gt;This CLI Display Manager is blazing fast and offers a few configuration options. One of these options and my personal favorite is setting the MOTD, like the one you can see in the next section.&lt;/p&gt;
-&lt;p&gt;You can also choose the TTY where it will run, set auto login, create &lt;a href=&#34;https://github.com/tvrzna/emptty/blob/master/SAMPLES.md#custom-sessions&#34;&gt;custom sessions&lt;/a&gt; just for emptty and a couple for customization options you can check over at &lt;a href=&#34;https://github.com/tvrzna/emptty&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also choose the TTY where it will run, set auto login, create &lt;a href=&#34;https://github.com/tvrzna/emptty/blob/master/SAMPLES.md#custom-sessions&#34;&gt;custom sessions&lt;/a&gt; just for emptty and a couple customization options you can check over at &lt;a href=&#34;https://github.com/tvrzna/emptty&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;../../featured-posts/emptty.jpg&#34; alt=&#34;second screenshot&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-to-install&#34;&gt;How to install&lt;/h2&gt;
