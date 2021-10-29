@@ -1,269 +1,98 @@
-<!DOCTYPE html>
-
-
-<html lang="en-us" data-theme="">
+<!doctype html><html lang=en-us data-theme>
 <head>
-	<meta name="generator" content="Hugo 0.85.0" />
-    
-        
-<meta charset="utf-8">
-<meta name="HandheldFriendly" content="True">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="no-referrer-when-downgrade">
-
+<meta name=generator content="Hugo 0.88.1">
+<meta charset=utf-8>
+<meta name=HandheldFriendly content="True">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=referrer content="no-referrer-when-downgrade">
 <title>userrepository blog</title>
-<meta name="description" content="Updates and highlights about userrepository, a mostly AUR-based binary repository for Arch and Arch-based distributions">
-
-<link rel="alternate" type="application/rss+xml" href="https://blog.userrepository.eu/index.xml" title="userrepository blog" />
-<link rel="icon" type="image/x-icon" href="https://blog.userrepository.eu/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="https://blog.userrepository.eu/favicon.png">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,400&display=swap" rel="stylesheet"> 
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel="stylesheet"> 
-
-
-
-    
-
-
-
-
-
-    
-    
-    
-
-    
-        <link rel="stylesheet" href="https://blog.userrepository.eu/css/style.5ae7bb6081cb37881b0fab4fa7bcd3ec63c3fe276f78921e5153e3ceeec32ec7.css" integrity="">
-    
-
-
-
-
-
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.userrepository.eu/org-image.png"/>
-
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Updates and highlights about userrepository, a mostly AUR-based binary repository for Arch and Arch-based distributions"/>
-
-<meta property="og:title" content="" />
-<meta property="og:description" content="Updates and highlights about userrepository, a mostly AUR-based binary repository for Arch and Arch-based distributions" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://blog.userrepository.eu/" /><meta property="og:image" content="https://blog.userrepository.eu/org-image.png"/><meta property="og:site_name" content="userrepository blog" />
-
-
-
-
-
-
-
-<script src="https://kit.fontawesome.com/9e80b3337d.js" crossorigin="anonymous"></script>
-
-
-<script async defer data-domain="blog.userrepository.eu" src="https://stats.willit.fail/js/plausible.js"></script>
-
-
-
-
-
-
-
-
-    
+<meta name=description content="Updates and highlights about userrepository, a mostly AUR-based binary repository for Arch and Arch-based distributions">
+<link rel=alternate type=application/rss+xml href=https://blog.userrepository.eu/index.xml title="userrepository blog">
+<link rel=icon type=image/x-icon href=https://blog.userrepository.eu/favicon.ico>
+<link rel=apple-touch-icon-precomposed href=https://blog.userrepository.eu/favicon.png>
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,400&display=swap" rel=stylesheet>
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel=stylesheet>
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel=stylesheet>
+<link rel=stylesheet href=https://blog.userrepository.eu/css/style.5ae7bb6081cb37881b0fab4fa7bcd3ec63c3fe276f78921e5153e3ceeec32ec7.css integrity>
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.userrepository.eu/org-image.png">
+<meta name=twitter:title content>
+<meta name=twitter:description content="Updates and highlights about userrepository, a mostly AUR-based binary repository for Arch and Arch-based distributions">
+<meta property="og:title" content>
+<meta property="og:description" content="Updates and highlights about userrepository, a mostly AUR-based binary repository for Arch and Arch-based distributions">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blog.userrepository.eu/"><meta property="og:image" content="https://blog.userrepository.eu/org-image.png"><meta property="og:site_name" content="userrepository blog">
+<script src=https://kit.fontawesome.com/9e80b3337d.js crossorigin=anonymous></script>
+<script async defer data-domain=blog.userrepository.eu src=https://stats.willit.fail/js/plausible.js></script>
 </head>
 <body>
-    <a class="skip-main" href="#main">Skip to main content</a>
-    <div class="container">
-        <header class="common-header"> 
-            
-                <div class="header-top">
-    <h1 class="site-title">
-        
-            <a href="/">userrepository blog</a>
-        
-    </h1>
-    
-    
-
-    
-
-
-
-    
-
-    <h1 class="site-title-right">
-        <a class="theme-switcher" href="#"></a>
-    </h1>
-
-    <script>
-    const STORAGE_KEY = 'user-color-scheme'
-    const defaultTheme = "light"
-
-    let currentTheme
-    let switchButton
-    let autoDefinedScheme = window.matchMedia('(prefers-color-scheme: dark)')
-
-    const autoChangeScheme = e => {
-        currentTheme = e.matches ? 'dark' : 'light'
-        document.documentElement.setAttribute('data-theme', currentTheme)
-        changeButtonText()
-    }
-
-    document.addEventListener('DOMContentLoaded', function() {
-        switchButton = document.querySelector('.theme-switcher')
-        currentTheme = detectCurrentScheme()
-        if (currentTheme == 'dark') {
-            document.documentElement.setAttribute('data-theme', 'dark')
-        }
-        if (currentTheme == 'auto') {
-            autoChangeScheme(autoDefinedScheme);
-            autoDefinedScheme.addListener(autoChangeScheme);
-        }
-        changeButtonText()
-        switchButton.addEventListener('click', switchTheme, false)
-    })
-
-    function detectCurrentScheme() {
-        if (localStorage.getItem(STORAGE_KEY)) {
-            return localStorage.getItem(STORAGE_KEY)
-        } 
-        if (defaultTheme) {
-            return defaultTheme
-        } 
-        if (!window.matchMedia) {
-            return 'light'
-        } 
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            return 'dark'
-        }
-        return 'light'
-    }
-
-    function changeButtonText()
-    {   
-        switchButton.textContent = currentTheme == 'dark' ?  '🌞' : '🌙'
-    }
-
-    function switchTheme(e) {
-        if (currentTheme == 'dark') {
-            localStorage.setItem(STORAGE_KEY, 'light')
-            document.documentElement.setAttribute('data-theme', 'light')
-            currentTheme = 'light'
-        } else {
-            localStorage.setItem(STORAGE_KEY, 'dark')
-            document.documentElement.setAttribute('data-theme', 'dark')
-            currentTheme = 'dark'
-        }
-        changeButtonText()
-    }
-    </script>
-
+<a class=skip-main href=#main>Skip to main content</a>
+<div class=container>
+<header class=common-header>
+<div class=header-top>
+<h1 class=site-title>
+<a href=/>userrepository blog</a>
+</h1>
+<h1 class=site-title-right>
+<a class=theme-switcher href=#></a>
+</h1>
+<script>const STORAGE_KEY='user-color-scheme',defaultTheme="light";let currentTheme,switchButton,autoDefinedScheme=window.matchMedia('(prefers-color-scheme: dark)');const autoChangeScheme=a=>{currentTheme=a.matches?'dark':'light',document.documentElement.setAttribute('data-theme',currentTheme),changeButtonText()};document.addEventListener('DOMContentLoaded',function(){switchButton=document.querySelector('.theme-switcher'),currentTheme=detectCurrentScheme(),currentTheme=='dark'&&document.documentElement.setAttribute('data-theme','dark'),currentTheme=='auto'&&(autoChangeScheme(autoDefinedScheme),autoDefinedScheme.addListener(autoChangeScheme)),changeButtonText(),switchButton.addEventListener('click',switchTheme,!1)});function detectCurrentScheme(){return localStorage.getItem(STORAGE_KEY)?localStorage.getItem(STORAGE_KEY):defaultTheme?defaultTheme:window.matchMedia?window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light':'light'}function changeButtonText(){switchButton.textContent=currentTheme=='dark'?'🌞':'🌙'}function switchTheme(a){currentTheme=='dark'?(localStorage.setItem(STORAGE_KEY,'light'),document.documentElement.setAttribute('data-theme','light'),currentTheme='light'):(localStorage.setItem(STORAGE_KEY,'dark'),document.documentElement.setAttribute('data-theme','dark'),currentTheme='dark'),changeButtonText()}</script>
 </div>
-
-    <nav>
-        
-        
-        <a class="" href="https://blog.userrepository.eu/about/" title="">About</a>
-        
-        <a class="" href="https://github.com/brunomiguel/userrepository" title="">GitHub</a>
-        
-        <a class="" href="https://userrepository.eu" title="">Repository</a>
-        
-    </nav>
-
-
-
-
-
-
-            
-        </header>
-        <main id="main" tabindex="-1"> 
-            
-    <div class="homepage-content">
-        
-    </div>
-
-    <div class="articles h-feed">
-        
-        
-            <article class="post-list h-feed">
-    <header class="post-header">
-        <h1 class="p-name post-title"><a class="u-url" href="/post/featured-package-emptty/">Featured package: emptty-git</a></h1>
-    </header>
-
-    
-        <div class="content post-summary p-summary">
-            emptty-git is a blazing fast Display Manager on TTY
-        </div>
-    
-    
-    
-    
+<nav>
+<a href=https://blog.userrepository.eu/about/ title>About</a>
+<a href=https://github.com/brunomiguel/userrepository title>GitHub</a>
+<a href=https://userrepository.eu title>Repository</a>
+</nav>
+</header>
+<main id=main tabindex=-1>
+<div class=homepage-content>
+</div>
+<div class="articles h-feed">
+<article class="post-list h-feed">
+<header class=post-header>
+<h1 class="p-name post-title"><a class=u-url href=/post/more-than-1000-packages/>More than 1000 packages available</a></h1>
+</header>
+<div class="content post-summary p-summary">
+Userrepository hit the 1000 packages mark.
+</div>
 </article>
-        
-            <article class="post-list h-feed">
-    <header class="post-header">
-        <h1 class="p-name post-title"><a class="u-url" href="/post/hello-world/">Hello World</a></h1>
-    </header>
-
-    
-        <div class="content post-summary p-summary">
-            I am very delighted to finally announce the userrepository blog.
-        </div>
-    
-    
-    
-    
+<article class="post-list h-feed">
+<header class=post-header>
+<h1 class="p-name post-title"><a class=u-url href=/post/partial-builds/>Changes to the build process</a></h1>
+</header>
+<div class="content post-summary p-summary">
+Userrepository stopped building the full set of packages once a day and now only builds updated packages every 6 hours
+</div>
 </article>
-        
-        
-
-    </div>
-
-
-        </main>
-        
-            <footer class="common-footer">
-    
-    
-
-    <div class="common-footer-bottom">
-        
-        <div class="copyright">
-            <div><p style="float: left; width 49%;"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>, Bruno Miguel, 2021<br>
-            Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, based on <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a><br>
-            
-<p style="text-align: right; display:inline-block; width: 49%; float: right;">Proudly hosted by <a href="https://fosshost.org">Fosshost</a>
-<br>Plausible stats kindly hosted by <a href="https://hostedstatus.page/">Nikola</a></p>
-
-            </p></div>  
-        </div> 
-   
-    </div>
-
-    <p class="h-card vcard">
-
-    <a href=https://blog.userrepository.eu class="p-name u-url url fn" rel="me">Bruno Miguel</a> 
-
-    
-
-    
-</p> 
+<div class=pagination>
+<div class="left pagination-item disabled">
+</div>
+<div class="right pagination-item">
+<a href=/page/2/>👉</a>
+</div>
+</div>
+</div>
+</main>
+<footer class=common-footer>
+<div class=common-footer-bottom>
+<div class=copyright>
+<div><p style="float:left;width 49%"><a rel=license href=http://creativecommons.org/licenses/by/4.0/>CC-BY-4.0</a>, Bruno Miguel, 2021<br>
+Powered by <a target=_blank rel="noopener noreferrer" href=https://gohugo.io/>Hugo</a>, based on <a target=_blank rel="noopener noreferrer" href=https://github.com/mitrichius/hugo-theme-anubis>Anubis</a><br>
+<p style=text-align:right;display:inline-block;width:49%;float:right>Proudly hosted by <a href=https://fosshost.org>Fosshost</a>
+<br>Plausible stats kindly hosted by <a href=https://hostedstatus.page/>Nikola</a></p>
+</p></div>
+</div>
+</div>
+<p class="h-card vcard">
+<a href=https://blog.userrepository.eu class="p-name u-url url fn" rel=me>Bruno Miguel</a>
+</p>
 </footer>
-
-        
-    </div>
+</div>
 </body>
 </html>
