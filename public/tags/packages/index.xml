@@ -1,8 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>packages on userrepository blog</title><link>https://blog.userrepository.eu/tags/packages/</link><description>userrepository blog (packages)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.userrepository.eu/tags/packages/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting close to the 1500 packages</title><link>https://blog.userrepository.eu/post/almost-1500-packages/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.userrepository.eu/post/almost-1500-packages/</guid><description>&lt;p>&lt;img src="https://blog.userrepository.eu/almost-1500-packages/jungwoo-hong-cYUMaCqMYvI-unsplash.jpg" alt="Growing number of packages">
-&lt;small>Image by Jungwoo Hong and downloaded from &lt;a href="https://unsplash.com/photos/cYUMaCqMYvI">Unsplash&lt;/a>&lt;/small>&lt;/p>
-&lt;p>Since the last blog post, on the 29&lt;sup>th&lt;/sup> of October 2021, the number of packages has been steadily increasing. At the time of writing, the total number is an impressive 1349. The new packages range from utilities to download videos from Youtube, compression and decompression applications, window switchers for Sway, typefaces, etc. You name the type of software, and it&amp;rsquo;s probably there.&lt;/p>
-&lt;p>The repository growth in terms of package numbers makes me happy and excited! Ever since I opened it up to the general public, I intended for it to have a lot of different helpful software for the most significant number of users possible. Getting close to the 1500 packages demonstrates the goal has been reached. But that won&amp;rsquo;t stop me from adding as many new packages as possible if I consider them valuable to the community.&lt;/p>
-&lt;p>Having an ever-increasing number of packages means a possible upsurge in the bandwidth. Cloudflare only lets users in the free tier see, at most, the last 30 days, but I remember it showing a little more than 40GB served per month around December. However, in the previous 30 days, it has pumped 61.11GB of data.&lt;/p>
-&lt;p>&lt;img src="https://blog.userrepository.eu/almost-1500-packages/last-30-days-total-data-stats.png" alt="Data served in the last 30 days">&lt;/p>
-&lt;p>These numbers are nowhere near the &lt;a href="https://fosshost.org/news/mirror-stats">23TB of data&lt;/a> Fosshost delivered in just one week with its mirror service. I wish they were. I&amp;rsquo;m still stunned by those Fosshost numbers, and I was the one who wrote the announcement! Nonetheless, I am very proud of what I&amp;rsquo;ve accomplished so far. I&amp;rsquo;ll continue to work towards growing the number of packages and keeping Userrepository beneficial to the community.&lt;/p>
-&lt;p>If you believe in Userrepository, as I do, please &lt;a href="https://fosshost.org/donate">donate to Fosshost&lt;/a>. It&amp;rsquo;s thanks to them that this software repository keeps running. When things got nasty due to Covid-19 and being diagnosed with fibromyalgia, Fosshost provided me with a VM for free to this day! And by donating to them, you&amp;rsquo;ll also be supporting the broader FOSS community.&lt;/p></description></item><item><title>More than 1000 packages available</title><link>https://blog.userrepository.eu/post/more-than-1000-packages/</link><pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.userrepository.eu/post/more-than-1000-packages/</guid><description>&lt;p>On the 29th of October, 2021, userrepository hit the 1000 packages mark and is now offering, at the time of this writing, 1009 packages. I intended to accomplish this before the end of the year and I&amp;rsquo;m really happy I made it.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>packages on userrepository blog</title>
+    <link>https://blog.userrepository.eu/tags/packages/</link>
+    <description>userrepository blog (packages)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://blog.userrepository.eu/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting close to the 1500 packages</title>
+      <link>https://blog.userrepository.eu/post/almost-1500-packages/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.userrepository.eu/post/almost-1500-packages/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.userrepository.eu/almost-1500-packages/jungwoo-hong-cYUMaCqMYvI-unsplash.jpg&#34; alt=&#34;Growing number of packages&#34;&gt;
+&lt;small&gt;Image by Jungwoo Hong and downloaded from &lt;a href=&#34;https://unsplash.com/photos/cYUMaCqMYvI&#34;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Since the last blog post, on the 29&lt;sup&gt;th&lt;/sup&gt; of October 2021, the number of packages has been steadily increasing. At the time of writing, the total number is an impressive 1349. The new packages range from utilities to download videos from Youtube, compression and decompression applications, window switchers for Sway, typefaces, etc. You name the type of software, and it&amp;rsquo;s probably there.&lt;/p&gt;
+&lt;p&gt;The repository growth in terms of package numbers makes me happy and excited! Ever since I opened it up to the general public, I intended for it to have a lot of different helpful software for the most significant number of users possible. Getting close to the 1500 packages demonstrates the goal has been reached. But that won&amp;rsquo;t stop me from adding as many new packages as possible if I consider them valuable to the community.&lt;/p&gt;
+&lt;p&gt;Having an ever-increasing number of packages means a possible upsurge in the bandwidth. Cloudflare only lets users in the free tier see, at most, the last 30 days, but  I remember it showing a little more than 40GB served per month around December. However, in the previous 30 days, it has pumped 61.11GB of data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.userrepository.eu/almost-1500-packages/last-30-days-total-data-stats.png&#34; alt=&#34;Data served in the last 30 days&#34;&gt;&lt;/p&gt;
+&lt;p&gt;These numbers are nowhere near the &lt;a href=&#34;https://fosshost.org/news/mirror-stats&#34;&gt;23TB of data&lt;/a&gt; Fosshost delivered in just one week with its mirror service. I wish they were. I&amp;rsquo;m still stunned by those Fosshost numbers, and I was the one who wrote the announcement! Nonetheless, I am very proud of what I&amp;rsquo;ve accomplished so far. I&amp;rsquo;ll continue to work towards growing the number of packages and keeping Userrepository beneficial to the community.&lt;/p&gt;
+&lt;p&gt;If you believe in Userrepository, as I do, please &lt;a href=&#34;https://fosshost.org/donate&#34;&gt;donate to Fosshost&lt;/a&gt;. It&amp;rsquo;s thanks to them that this software repository keeps running. When things got nasty due to Covid-19 and being diagnosed with fibromyalgia, Fosshost provided me with a VM for free to this day! And by donating to them, you&amp;rsquo;ll also be supporting the broader FOSS community.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>More than 1000 packages available</title>
+      <link>https://blog.userrepository.eu/post/more-than-1000-packages/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.userrepository.eu/post/more-than-1000-packages/</guid>
+      <description>&lt;p&gt;On the 29th of October, 2021, userrepository hit the 1000 packages mark and is now offering, at the time of this writing, 1009 packages. I intended to accomplish this before the end of the year and I&amp;rsquo;m really happy I made it.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
