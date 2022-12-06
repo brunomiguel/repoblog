@@ -2,7 +2,7 @@ baseURL = "https://blog.userrepository.eu"
 languageCode = "en-us"
 title = "userrepository blog"
 theme = "anubis"
-paginate = 2
+paginate = 3
 
 disqusShortname = ""
 googleAnalytics = ""
