@@ -1,31 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>catppuccin on userrepository blog</title>
-    <link>https://blog.userrepository.eu/tags/catppuccin/</link>
-    <description>userrepository blog (catppuccin)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate>
-    
-    <atom:link href="https://blog.userrepository.eu/tags/catppuccin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>New look</title>
-      <link>https://blog.userrepository.eu/post/new-look/</link>
-      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.userrepository.eu/post/new-look/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://blog.userrepository.eu/new-look/new-look.png&#34; alt=&#34;Growing number of packages&#34;&gt;
-&lt;small&gt;Screenshot by me, under the &lt;em&gt;Creative Commons (&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;CC-BY-SA-4.0&lt;/a&gt;)&lt;/em&gt; license&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;The repository got a makeover. Well, the content the webserver displays got a makeover. Instead of showing just a plain open directory, the visitors will now see a more good-looking HTML page with the list of the packages.&lt;/p&gt;
-&lt;p&gt;This change will have no impact on how you install the packages on your computers. That will remain as it always was: at a &lt;em&gt;pacman -Syu %package_name%&lt;/em&gt; away.&lt;/p&gt;
-&lt;p&gt;To make it smooth on the eyes, I chose the Catppuccin colour scheme. This was the perfect excuse I was looking to use it. I find it vastly enjoyable to look at.&lt;/p&gt;
-&lt;p&gt;You can take a look at it on &lt;a href=&#34;https://github.com/catppuccin/catppuccin&#34;&gt;Github&lt;/a&gt; and, if you&amp;rsquo;d like, use it on any of the supported applications. Each one has its own dedicated repository.&lt;/p&gt;
-&lt;p&gt;If you believe in Userrepository, please &lt;a href=&#34;https://fosshost.org/donate&#34;&gt;donate to Fosshost&lt;/a&gt;. It&amp;rsquo;s thanks to them that this repository keeps running. By donating, you&amp;rsquo;ll also support the broader FOSS community.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>catppuccin on userrepository blog</title><link>https://blog.userrepository.eu/tags/catppuccin/</link><description>userrepository blog (catppuccin)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.userrepository.eu/tags/catppuccin/index.xml" rel="self" type="application/rss+xml"/><item><title>New look</title><link>https://blog.userrepository.eu/post/new-look/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.userrepository.eu/post/new-look/</guid><description>&lt;p>&lt;img src="https://blog.userrepository.eu/new-look/new-look.png" alt="Growing number of packages">
+&lt;small>Screenshot by me, under the &lt;em>Creative Commons (&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0&lt;/a>)&lt;/em> license&lt;/small>&lt;/p>
+&lt;p>The repository got a makeover. Well, the content the webserver displays got a makeover. Instead of showing just a plain open directory, the visitors will now see a more good-looking HTML page with the list of the packages.&lt;/p>
+&lt;p>This change will have no impact on how you install the packages on your computers. That will remain as it always was: at a &lt;em>pacman -Syu %package_name%&lt;/em> away.&lt;/p>
+&lt;p>To make it smooth on the eyes, I chose the Catppuccin colour scheme. This was the perfect excuse I was looking to use it. I find it vastly enjoyable to look at.&lt;/p>
+&lt;p>You can take a look at it on &lt;a href="https://github.com/catppuccin/catppuccin">Github&lt;/a> and, if you&amp;rsquo;d like, use it on any of the supported applications. Each one has its own dedicated repository.&lt;/p>
+&lt;p>If you believe in Userrepository, please &lt;a href="https://fosshost.org/donate">donate to Fosshost&lt;/a>. It&amp;rsquo;s thanks to them that this repository keeps running. By donating, you&amp;rsquo;ll also support the broader FOSS community.&lt;/p></description></item></channel></rss>

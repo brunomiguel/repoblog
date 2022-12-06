@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>changes on userrepository blog</title>
-    <link>https://blog.userrepository.eu/tags/changes/</link>
-    <description>userrepository blog (changes)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate>
-    
-    <atom:link href="https://blog.userrepository.eu/tags/changes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Changes to the build process</title>
-      <link>https://blog.userrepository.eu/post/partial-builds/</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.userrepository.eu/post/partial-builds/</guid>
-      <description>&lt;p&gt;Until a few days ago, all the packages available at userrepository.eu were built in batch. Given the number of packages is over 800, it took more than 10 hours (yes, 10 hours) to complete each daily full build.&lt;/p&gt;
-&lt;p&gt;Now, a new option in the build script only builds the updated packages. Not only that, all &lt;code&gt;*-git&lt;/code&gt; packages are also built with this new option. I made this decision because the lack of version updates on these AUR packages doesn&amp;rsquo;t mean there isn&amp;rsquo;t an update to them.&lt;/p&gt;
-&lt;p&gt;The script runs every 6 hours and takes about 4h30m to complete.&lt;/p&gt;
-&lt;p&gt;To finish this blog post, a thank you note to &lt;a href=&#34;https://fosshost.org&#34;&gt;Fosshost&lt;/a&gt; for kindly increasing the resources on the VM.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>changes on userrepository blog</title><link>https://blog.userrepository.eu/tags/changes/</link><description>userrepository blog (changes)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.userrepository.eu/tags/changes/index.xml" rel="self" type="application/rss+xml"/><item><title>Changes to the build process</title><link>https://blog.userrepository.eu/post/partial-builds/</link><pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate><guid>https://blog.userrepository.eu/post/partial-builds/</guid><description>&lt;p>Until a few days ago, all the packages available at userrepository.eu were built in batch. Given the number of packages is over 800, it took more than 10 hours (yes, 10 hours) to complete each daily full build.&lt;/p>
+&lt;p>Now, a new option in the build script only builds the updated packages. Not only that, all &lt;code>*-git&lt;/code> packages are also built with this new option. I made this decision because the lack of version updates on these AUR packages doesn&amp;rsquo;t mean there isn&amp;rsquo;t an update to them.&lt;/p>
+&lt;p>The script runs every 6 hours and takes about 4h30m to complete.&lt;/p>
+&lt;p>To finish this blog post, a thank you note to &lt;a href="https://fosshost.org">Fosshost&lt;/a> for kindly increasing the resources on the VM.&lt;/p></description></item></channel></rss>
