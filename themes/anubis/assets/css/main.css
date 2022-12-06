@@ -44,7 +44,7 @@ html {
 
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.64;
     -webkit-font-smoothing: antialiased;
     color: var(--font-color);
@@ -559,6 +559,7 @@ article figcaption {
 
 footer .copyright {
     width: 100%;
+    text-align: center;
 }
 
 .common-footer {
